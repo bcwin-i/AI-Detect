@@ -1,0 +1,18 @@
+
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #f1faee inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  #input-image{
+    width: 330px;
+  }
+  
+}

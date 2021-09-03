@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Destruido Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Destruido Regular"), url("./fonts/Destruido-OVZDd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Destruido Interior";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Destruido Interior"),
+    url("./fonts/DestruidoInterior-EaqD9.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Destruido Exterior 1";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Destruido Exterior 1"),
+    url("./fonts/DestruidoExterior1-eZwXp.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Destruido Exterior";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Destruido Exterior"),
+    url("./fonts/DestruidoExterior-axBmE.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Destruido Exterior 2";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Destruido Exterior 2"),
+    url("./fonts/DestruidoExterior2-WyzBY.woff") format("woff");
+}

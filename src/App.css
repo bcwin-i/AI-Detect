@@ -1,31 +1,55 @@
 .App {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.partback{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Destruido Interior";
+  color: var(--white);
+}
+
+.info {
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.try {
+  font-family: "Destruido Regular";
+  font-weight: normal;
+  font-size: 80px;
+  color: var(--white);
+  margin-bottom: 0px;
+}
+
+.try:hover {
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +58,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .try{
+    font-size: 24px;
+    font-family: "Destruido Exterior";
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 9px;
+    margin-bottom: 20px;
   }
 }
